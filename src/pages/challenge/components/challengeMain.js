@@ -119,7 +119,7 @@ const challengeMain = ({challengeData}) => {
                 </h1>
                 <h5 className="mt-2">{challengeData?.hashtag}</h5>
                 <p className="mt-4 text-gray-400 font-givenget">
-                  {truncateString(challengeData?.description, 500)}
+                  {challengeData?.description && truncateString(challengeData?.description, 500)}
                 </p>
 
                 <div className="flex flex-row mt-5 gap-x-5 items-center ">
