@@ -7,7 +7,7 @@ const id = ({ id, serverData }) => {
     <Helmet>
       <title>{serverData?.title}</title>
       <meta name="description" content={serverData?.description} />
-      <meta property="og:image" content={serverData?.image} />
+      <meta property="og:image" content={serverData?.photo} />
       <meta property="og:title" content={serverData?.title} />
       <meta property="og:description" content={serverData?.description} />
       <meta property="og:type" content="website" />
@@ -28,7 +28,6 @@ export async function getServerData({ params }) {
     if (!res.ok) {
       throw new Error(`Response failed`)
     }
-
     return {
       props: await res.json(),
     }

@@ -14,7 +14,11 @@ const IndexPage = ({serverData}) => {
             <Helmet>
                 <title>{serverData?.title}</title>
                 <meta name="description" content={serverData?.description} />
-                <meta property="og:image" content={serverData?.image} />
+                <meta property="og:image" content={serverData?.photo} />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta property="og:image:alt" content={serverData?.title} />
+                <meta property="og:image:type" content="image/png" />
                 <meta property="og:title" content={serverData?.title} />
                 <meta property="og:description" content={serverData?.description} />
                 <meta property="og:type" content="website" />
