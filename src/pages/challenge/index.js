@@ -8,8 +8,9 @@ import Layout from '../../components/layout'
 import PreLoader from '../../components/Preloader'
 import Seo from "../../components/seo"
 
-const IndexPage = ({ serverData }) => {
-    console.log(serverData)
+const IndexPage = (props) => {
+    const { serverData } = props
+    console.log(props)
     return (
         <>
             <Helmet>
@@ -41,9 +42,10 @@ const IndexPage = ({ serverData }) => {
 
 
 
-export async function getServerData() {
-
+export async function getServerData({ page, pageContext }) {
     try {
+
+        console.log('page', pageContext)
         const res = await fetch(`https://api.givenget.org/api/lp/challenge/squat-challenge-ofK3csMeTI`, {
             method: `GET`,
         })

@@ -17,6 +17,7 @@
     "gatsby-plugin-react-redux-providers": "^1.0.9",
     "gatsby-plugin-sharp": "^5.4.0",
     "gatsby-plugin-sitemap": "^6.4.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-source-graphql": "^5.4.0",
     "gatsby-source-rest-api": "^0.2.3",
@@ -28,7 +29,8 @@
     "react-lottie": "^1.2.3",
     "react-redux": "^8.0.5",
     "redux": "^4.2.0",
-    "redux-persist": "^6.0.0"
+    "redux-persist": "^6.0.0",
+    "use-query-params": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
