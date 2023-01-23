@@ -5,16 +5,16 @@ const id = ({ id, serverData }) => {
   console.log(id, serverData)
   return (
     <Helmet>
-      <title>{serverData.title}</title>
-      <meta name="description" content={serverData.description} />
-      <meta property="og:image" content={serverData.image} />
-      <meta property="og:title" content={serverData.title} />
-      <meta property="og:description" content={serverData.description} />
+      <title>{serverData?.title}</title>
+      <meta name="description" content={serverData?.description} />
+      <meta property="og:image" content={serverData?.image} />
+      <meta property="og:title" content={serverData?.title} />
+      <meta property="og:description" content={serverData?.description} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={'give&get'} />
-      <meta name="twitter:title" content={serverData.title} />
-      <meta name="twitter:description" content={serverData.description} />
+      <meta name="twitter:title" content={serverData?.title} />
+      <meta name="twitter:description" content={serverData?.description} />
     </Helmet>
   )
 }

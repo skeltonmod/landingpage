@@ -8,22 +8,20 @@ import Layout from '../../components/layout'
 import PreLoader from '../../components/Preloader'
 import Seo from "../../components/seo"
 
-const IndexPage = (props) => {
-    const { serverData } = props
-    console.log(props)
+const IndexPage = ({serverData}) => {
     return (
         <>
             <Helmet>
-                <title>{serverData.title}</title>
-                <meta name="description" content={serverData.description} />
-                <meta property="og:image" content={serverData.image} />
-                <meta property="og:title" content={serverData.title} />
-                <meta property="og:description" content={serverData.description} />
+                <title>{serverData?.title}</title>
+                <meta name="description" content={serverData?.description} />
+                <meta property="og:image" content={serverData?.image} />
+                <meta property="og:title" content={serverData?.title} />
+                <meta property="og:description" content={serverData?.description} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:creator" content={'give&get'} />
-                <meta name="twitter:title" content={serverData.title} />
-                <meta name="twitter:description" content={serverData.description} />
+                <meta name="twitter:title" content={serverData?.title} />
+                <meta name="twitter:description" content={serverData?.description} />
             </Helmet>
             <Layout>
                 <div
