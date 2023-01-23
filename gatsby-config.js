@@ -9,13 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
-  },
-  flags: {
-    DEV_SSR: true
+    title: `Share Give & Get`,
+    description: `We’re bringing charitable giving into the modern era with the latest mobile application technology, and linking it to the growing popularity of people participating in challenges for a cause. Only with the Give + Get app, YOU get to decide which cause is worthy of receiving your hard-earned money.`,
+    author: `@givenget`,
+    siteUrl: `https://share.givenget.org`,
   },
   plugins: [
     'gatsby-plugin-postcss',

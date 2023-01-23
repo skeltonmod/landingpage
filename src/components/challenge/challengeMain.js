@@ -1,11 +1,11 @@
 import React from "react";
 
 import Lottie from "react-lottie";
-import shapeAnimation from "../../assets/json/shape.json";
+import shapeAnimation from '../../assets/json/shape.json'
 // import LandingChallengeTestimonial from "./LandingChallengeTestimonial";
 
-import TabBar from "../../../assets/images/tabBar.png";
-import StatusBar from '../../../assets/images/StatusBar.png'
+import TabBar from "../../assets/images/tabBar.png";
+import StatusBar from '../../assets/images/statusBar.png';
 
 import { truncateString } from '../../utils/Helper'
 
