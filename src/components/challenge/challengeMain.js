@@ -1,9 +1,7 @@
 import React from "react";
-
+import ChallengeTestimonial from "./ChallengeTestimonial";
 import Lottie from "react-lottie";
 import shapeAnimation from '../../assets/json/shape.json'
-// import LandingChallengeTestimonial from "./LandingChallengeTestimonial";
-
 import TabBar from "../../assets/images/tabBar.png";
 import StatusBar from '../../assets/images/statusBar.png';
 
@@ -18,7 +16,7 @@ const defaultOptions = {
   },
 };
 
-const challengeMain = ({challengeData}) => {
+const challengeMain = ({ challengeData }) => {
   return (
     <div className="flex h-screen">
       <div className="m-auto">
@@ -138,9 +136,9 @@ const challengeMain = ({challengeData}) => {
                       </div>
                       <div>
                         <div className="text-xs">Download on the</div>
-                          <div className="text-sm font-semibold font-sans -mt-1">
-                            App Store
-                          </div>
+                        <div className="text-sm font-semibold font-sans -mt-1">
+                          App Store
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -172,10 +170,10 @@ const challengeMain = ({challengeData}) => {
                       </div>
                       <div>
                         <div className="text-xs">GET IT ON</div>
-                          <div className="text-sm font-semibold font-sans -mt-1 ">
-                            Google Play
-                          </div>
+                        <div className="text-sm font-semibold font-sans -mt-1 ">
+                          Google Play
                         </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -184,7 +182,7 @@ const challengeMain = ({challengeData}) => {
                   className="flex"
                   style={{ alignItems: "center", justifyContent: "center" }}
                 >
-                  {/* <LandingChallengeTestimonial data={challengeData.top_picks}/> */}
+                  <ChallengeTestimonial data={challengeData.top_picks} />
                 </div>
               </div>
             </div>

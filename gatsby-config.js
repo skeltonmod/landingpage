@@ -13,6 +13,7 @@ module.exports = {
     description: `We’re bringing charitable giving into the modern era with the latest mobile application technology, and linking it to the growing popularity of people participating in challenges for a cause. Only with the Give + Get app, YOU get to decide which cause is worthy of receiving your hard-earned money.`,
     author: `@givenget`,
     siteUrl: `https://share.givenget.org`,
+    loadingDelay: 2000,
   },
   plugins: [
     'gatsby-plugin-postcss',

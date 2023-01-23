@@ -4,10 +4,11 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "engines":{
+  "engines": {
     "node": "18.x"
   },
   "dependencies": {
+    "@reach/router": "^1.3.4",
     "@reduxjs/toolkit": "^1.9.1",
     "@tailwindcss/typography": "^0.5.9",
     "@tanstack/react-query": "^4.22.0",
@@ -35,6 +36,7 @@
     "react-redux": "^8.0.5",
     "redux": "^4.2.0",
     "redux-persist": "^6.0.0",
+    "swiper": "^8.4.6",
     "use-query-params": "^2.1.2"
   },
   "devDependencies": {
