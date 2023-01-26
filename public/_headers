@@ -1,0 +1,53 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---src-templates-using-dsg-js-17e400c79516a81ce699.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-eaf1ad9ba7260298f28d.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-8d39aab469a7e53aa418.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.8c377e52f1e005e4dbdb.css
+  Cache-Control: public, max-age=31536000, immutable
+/ea88be26-341d7ba5d5aa07f43360.js
+  Cache-Control: public, max-age=31536000, immutable
+/75fc9c18-902e12aedf2e94aa83f6.js
+  Cache-Control: public, max-age=31536000, immutable
+/2b3da1a4e6313fa505189a517e1ea523facc311a-fdd2fd29eb079334a6b9.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-challenge-[id]-js-6f857bd38d208c673c1f.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-challenge-index-js-338d72f0d14dc75d3741.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-achievements-[id]-js-6de008c99cd477fa26ef.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-achievements-index-js-ea35ef54a2d4ce7dbd77.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-post-[id]-js-d3b215b5aacb0adc5638.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-post-index-js-11e612b3a53943bcf0ad.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-22f211861366bb64e1a5.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-edabc3b0154c22465b3f.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-825d812f8850b1339659.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/using-dsg/
+/404/
+/404.html
+/
+/challenge/[id]/
+/challenge/
+/achievements/[id]/
+/achievements/
+/post/[id]/
+/post/

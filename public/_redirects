@@ -1,0 +1,10 @@
+
+## Created with gatsby-plugin-netlify
+/using-dsg/  /.netlify/functions/__dsg  200
+/page-data/using-dsg/page-data.json  /.netlify/functions/__dsg  200
+/challenge/:id  /.netlify/functions/__ssr  200
+/page-data/challenge/:id/page-data.json  /.netlify/functions/__ssr  200
+/achievements/:id  /.netlify/functions/__ssr  200
+/page-data/achievements/:id/page-data.json  /.netlify/functions/__ssr  200
+/post/:id  /.netlify/functions/__ssr  200
+/page-data/post/:id/page-data.json  /.netlify/functions/__ssr  200
