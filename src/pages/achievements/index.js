@@ -1,15 +1,19 @@
-import * as React from "react"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import React from "react";
 
-const IndexPage = () => (
-  <Layout>
-    <div className='grid h-screen place-content-center'>
-      <p className="uppercase tracking-widest text-gray-500">Give & Get Nothing to show here 🦾 🤖 </p>
-    </div>
-  </Layout>
-)
+// components
+import Layout from '../../components/layout'
+import Seo from '../../components/seo'
+
+const IndexPage = () => {
+    return (
+        <Layout>
+            <div className='grid h-screen place-content-center'>
+                <p className="uppercase tracking-widest text-gray-500">Give & Get Nothing to show here 🦾 🤖 </p>
+            </div>
+        </Layout>
+    )
+}
 
 export const Head = () => <Seo
     title="Share Give & Get"

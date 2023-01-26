@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 // components
 import Layout from '../../components/layout'
-import ChallengeMain from '../../components/challenge/ChallengeMain'
+import PostMain from '../../components/post/PostMain'
 
 const id = ({ serverData }) => {
   return (
@@ -22,7 +22,7 @@ const id = ({ serverData }) => {
       </Helmet>
 
       <Layout>
-        <ChallengeMain challengeData={serverData} />
+        <PostMain newsfeedData={serverData} />
       </Layout>
 
     </>
@@ -34,7 +34,7 @@ export async function getServerData({ params }) {
 
   try {
     
-    const res = await fetch(`https://api.givenget.org/api/lp/challenge/${id}`, {
+    const res = await fetch(`https://api.givenget.org/api/landing/posts/${id}`, {
       method: `GET`,
     })
     

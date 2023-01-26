@@ -1,9 +1,10 @@
 import React from "react";
-import ChallengeTestimonial from "./ChallengeTestimonial";
+import ChallengeTestimonials from "./ChallengeTestimonials";
 import Lottie from "react-lottie";
+import { navigate } from "@reach/router";
 import shapeAnimation from '../../assets/json/shape.json'
 import TabBar from "../../assets/images/tabBar.png";
-import StatusBar from '../../assets/images/statusBar.png';
+import StatusBar from '../../assets/images/StatusBar.png';
 
 import { truncateString } from '../../utils/Helper'
 
@@ -111,7 +112,7 @@ const challengeMain = ({ challengeData }) => {
                 </div>
               </div>
 
-              <div className="lg:py-2">
+              <div className="lg:py-2 container mx-auto px-4">
                 <h1 className="text-4xl font-bold font-givenget sm:text-7xl text-white">
                   {challengeData?.title}
                 </h1>
@@ -125,6 +126,7 @@ const challengeMain = ({ challengeData }) => {
                     <div
                       style={{ cursor: "pointer" }}
                       className="flex mt-3 w-auto p-5 h-14 bg-black text-white rounded-xl items-center justify-center transition hover:rotate-2 hover:scale-110"
+                      onClick={() => navigate('https://apps.apple.com/us/app/give-get/id1569561799')}
                     >
                       <div className="mr-3">
                         <svg viewBox="0 0 384 512" width={30}>
@@ -147,6 +149,7 @@ const challengeMain = ({ challengeData }) => {
                     <div
                       style={{ cursor: "pointer" }}
                       className="flex mt-3 w-auto p-5 h-14 bg-black text-white rounded-lg items-center justify-center transition hover:-rotate-2 hover:scale-110"
+                      onClick={() => navigate('https://play.google.com/store/apps/details?id=com.givenget')}
                     >
                       <div className="mr-3">
                         <svg viewBox="30 336.7 120.9 129.2" width={30}>
@@ -179,11 +182,12 @@ const challengeMain = ({ challengeData }) => {
                 </div>
 
                 <div
-                  className="flex"
-                  style={{ alignItems: "center", justifyContent: "center" }}
+                  className="w-92"
                 >
-                  <ChallengeTestimonial data={challengeData.top_picks} />
+                  <ChallengeTestimonials data={challengeData.top_picks} />
+
                 </div>
+
               </div>
             </div>
           </div>

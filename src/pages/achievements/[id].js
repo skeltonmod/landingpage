@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 // components
 import Layout from '../../components/layout'
-import ChallengeMain from '../../components/challenge/ChallengeMain'
+import AchievementsMain from '../../components/achievements/AchievementsMain'
 
 const id = ({ serverData }) => {
   return (
@@ -11,7 +11,7 @@ const id = ({ serverData }) => {
       <Helmet>
         <title>{serverData?.title}</title>
         <meta name="description" content={serverData?.description} />
-        <meta property="og:image" content={serverData?.photo} />
+        <meta property="og:image" content={serverData?.image} />
         <meta property="og:title" content={serverData?.title} />
         <meta property="og:description" content={serverData?.description} />
         <meta property="og:type" content="website" />
@@ -22,7 +22,7 @@ const id = ({ serverData }) => {
       </Helmet>
 
       <Layout>
-        <ChallengeMain challengeData={serverData} />
+        <AchievementsMain data={serverData} />
       </Layout>
 
     </>
@@ -34,7 +34,7 @@ export async function getServerData({ params }) {
 
   try {
     
-    const res = await fetch(`https://api.givenget.org/api/lp/challenge/${id}`, {
+    const res = await fetch(`https://api.givenget.org/api/fetch-achievement/${id}`, {
       method: `GET`,
     })
     
